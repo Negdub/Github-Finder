@@ -17,6 +17,7 @@ function UserResults() {
     })
     
     const data = await response.json()
+    console.log(data)
     
     setUsers(data)
     setLoading(false)
@@ -40,3 +41,4 @@ function UserResults() {
   }
 
 export default UserResults
+
